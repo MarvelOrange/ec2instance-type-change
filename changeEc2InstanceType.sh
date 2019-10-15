@@ -20,7 +20,7 @@ error() {
 
 ## Args
 # Organise args
-while getopts "i:t:e:stopstart" opt; do
+while getopts "i:t:e:a" opt; do
   case ${opt} in
     i)
       instanceId=$OPTARG
